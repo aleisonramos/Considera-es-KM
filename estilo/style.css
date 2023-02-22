@@ -26,8 +26,13 @@ main {
 header {
     background-image: linear-gradient(to bottom, #2fa866, #063d1e);
     min-height: 80px;
-    text-align: center;
     padding-top: 40px;
+}
+
+header > img {
+    max-width: 150px;
+    margin-top: -70px;
+    padding: 15px;
 }
 
 header > h1 {
@@ -37,6 +42,7 @@ header > h1 {
     font-weight: normal;
     padding-bottom: 5px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    text-align: center;
 }
 
 nav p {
