@@ -1,8 +1,14 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
+}
+
+:root {
+    --fonte-titulo: 'Bebas Neue', cursive;
 }
 
 body {
@@ -25,26 +31,50 @@ main {
 
 header {
     background-image: linear-gradient(to bottom, #2fa866, #063d1e);
-    min-height: 80px;
-    padding-top: 40px;
+    min-height: 100px;
+    padding-top: 30px;
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    margin-bottom: 0px;
+    padding: 30px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
 }
 
 header > img {
     max-width: 150px;
-    margin-top: -70px;
-    padding: 15px;
+    margin-top: 0px;
+    padding: 5px;
 }
 
 header > h1 {
     color: white;
-    font-family: var(--fonte-destaque);
-    font-size: 2em;
+    font-family: var(--fonte-titulo);
+    font-size: 4em;
     font-weight: normal;
     padding-bottom: 5px;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
     text-align: center;
 }
 
+#conteiner {
+    background-size: 100% 100%;
+    padding: 10px;
+    height: 85vh;
+
+    position: relative;
+}
+
+#conteudo {
+    background-size: 100% 100%;
+
+    left: 53%;
+    top: 12%;
+
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
 nav p {
     margin: 15px 0px;
     text-align: justify;
