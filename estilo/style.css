@@ -48,7 +48,7 @@ header > a > img {
     padding: 5px;
 }
 
-header > h1 {
+section> h1 {
     color: white;
     font-family: var(--fonte-titulo);
     font-size: 4em;
@@ -87,6 +87,10 @@ table {
     width: 800px;
     padding: 5px;
     margin: auto;
+}
+
+div#configuracao {
+    overflow-x: auto;
 }
 
 thead, th {
